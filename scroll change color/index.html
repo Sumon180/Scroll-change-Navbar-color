@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Change-Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-img">
+        <div class="navbar" id="bg-navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, sequi soluta. Soluta mollitia impedit commodi repudiandae reiciendis odio voluptatum excepturi minima, enim, doloremque veritatis minus iure nostrum maiores. Ipsum vel sapiente quidem minus? Blanditiis numquam quidem ad veritatis eum dolorem nisi nam illo, dolor, veniam ut maiores eius? Earum asperiores blanditiis eos, eum debitis nostrum sed! Odit accusamus cupiditate, eveniet minus ea corrupti illum tenetur voluptates, doloremque delectus error. Esse voluptate, sapiente nobis quibusdam iure totam eius odio asperiores in cumque officiis eveniet fugiat provident illum earum sunt quis mollitia ducimus distinctio! Tenetur eos quaerat facilis voluptates amet fugiat, aut non rem veritatis ullam itaque iure. Nesciunt quaerat maiores obcaecati deserunt enim nobis modi id quisquam, inventore laudantium, fugit itaque tenetur rem voluptatibus cumque laboriosam dolorum voluptatum accusamus delectus. Culpa corrupti tempora, magni officiis impedit voluptates exercitationem iusto placeat ipsum reprehenderit amet non illum accusamus sequi voluptatem illo, aliquam minus veritatis modi a optio recusandae porro corporis voluptate! Eos ipsum laborum nobis nisi! Distinctio expedita exercitationem et illum ab harum! Error cupiditate, odit ex quasi laudantium veritatis mollitia quibusdam eos, obcaecati labore officia consequatur sequi adipisci non quod explicabo enim dolorum quisquam eius eveniet laboriosam quaerat quia assumenda. Non inventore, reprehenderit reiciendis optio deleniti velit blanditiis ducimus labore numquam ipsa maiores vitae. Inventore labore excepturi magni adipisci consequatur perferendis possimus voluptatem! Qui eos explicabo magnam sit dolores voluptas commodi natus praesentium beatae, esse quod sunt enim culpa? Quibusdam aut consequatur magnam ducimus esse architecto recusandae quisquam. Voluptate dolor accusamus minima quia, architecto dolorem suscipit porro sapiente error ipsam. Maxime nihil, quod laudantium distinctio temporibus quis ullam eos veniam reprehenderit nulla officia doloribus cupiditate fuga in, sapiente facere, ratione quia iusto dolores maiores enim architecto eligendi nam. Ad deserunt odit, illum recusandae quos quia cum accusantium officiis non, mollitia, quidem nisi perferendis tempore! In, velit unde? Enim dicta ipsum ut aliquam magnam ab facilis iusto exercitationem. Quasi, error possimus dolores tenetur amet tempora nostrum delectus quidem accusamus quis vitae labore soluta exercitationem quaerat voluptates, vero assumenda dolore sed aliquid adipisci voluptate voluptas eveniet laboriosam officiis? Nisi eveniet distinctio accusantium aperiam beatae, optio eos totam quidem corporis dicta recusandae molestias iusto ipsum culpa nulla assumenda doloribus fuga blanditiis nemo asperiores ea consectetur quos? Assumenda accusantium, tempora dignissimos doloremque a architecto ea tempore placeat modi, fugit, minima eaque beatae consequatur dolorem expedita pariatur fuga! Nulla iure architecto eveniet enim expedita dolore quis nam voluptatibus ex deserunt! Eligendi aliquid alias consequatur at architecto, accusamus ipsa dolorum fuga facilis minima a unde voluptate amet, asperiores ratione totam perferendis cum libero et delectus. Laudantium debitis esse eveniet commodi. Error amet a repellendus? Itaque aspernatur velit obcaecati id voluptatibus voluptatem expedita reprehenderit eius! Vitae illo fugit assumenda quo sunt dicta, pariatur similique excepturi, non tempora neque, facilis saepe veniam officiis magni quia sapiente doloribus impedit. Delectus doloremque incidunt unde optio dolorem illo a, dolores quia veritatis assumenda in natus possimus pariatur libero ad ipsum. Labore ad consequatur, autem excepturi quam numquam exercitationem corporis atque doloremque iusto vel!</p>
+    
+    
+    
+    <script>
+
+        let bgNavbar = document.getElementById('bg-navbar');
+        window.onscroll = () => {
+            let scrollNave = window.scrollY;
+            if(scrollNave >= 200){
+                bgNavbar.classList.add('after-scroll-navbar');
+            }
+            else{
+                bgNavbar.classList.remove('after-scroll-navbar');
+            }
+        };
+
+
+    </script>
+</body>
+</html>
